@@ -1,0 +1,44 @@
+{
+   "Company Name":{
+      "0":"IBM",
+      "1":"Tech Mahindra",
+      "2":"Wipro",
+      "3":"TCS"
+   },
+   "Open":{
+      "0":null,
+      "1":null,
+      "2":null,
+      "3":null
+   },
+   "Previous Close":{
+      "0":null,
+      "1":null,
+      "2":null,
+      "3":null
+   },
+   "Volume":{
+      "0":null,
+      "1":null,
+      "2":null,
+      "3":null
+   },
+   "High":{
+      "0":null,
+      "1":null,
+      "2":null,
+      "3":null
+   },
+   "Low":{
+      "0":null,
+      "1":null,
+      "2":null,
+      "3":null
+   },
+   "Face Value":{
+      "0":null,
+      "1":null,
+      "2":null,
+      "3":null
+   }
+}
