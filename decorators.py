@@ -1,22 +1,19 @@
-def test(text):
-    l = []
-    l.append(text)
-    return l
 
-def test1(test):
-    return test
 
-def dec(func):
-    txt = func("hello")
-    print(txt)
-#driver code.
-dec(test)
+def hello(fun):
+    def inner():
+        print("decornators one")
+        fun() # parent class funnction is called
 
-# What mean by decorators
+    return inner
+def world():
+    print("decorators two")
 
-# a decorator can change the behaviour of an object
-#  Decorators allow us to wrap another function in order 
-# to extend the behaviour of the wrapped function, without permanently modifying it.
+# @decorators
+hello  = hello(world)
+hello()
+# decorator is func in  which it can change the behaviour of a func or class  without modifying the functionality permantely.
+
 
 
 
